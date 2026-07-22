@@ -5,7 +5,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About SellerFlow and CloudVerge Ltd — the UK-registered company operating SellerFlow for Bangladesh f-commerce sellers.",
+    "About SellerFlow and HAVELY STORE LTD — the UK-registered company operating SellerFlow for Bangladesh f-commerce sellers.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
             About SellerFlow
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted">
-            SellerFlow is operated by CloudVerge Ltd, a UK-registered technology
+            SellerFlow is operated by HAVELY STORE LTD, a UK-registered technology
             company building SaaS tools for Bangladesh&apos;s f-commerce ecosystem.
           </p>
         </div>
@@ -68,14 +68,14 @@ export default function AboutPage() {
 
         <section className="mt-12">
           <h2 className="font-display text-2xl font-semibold">
-            About CloudVerge Ltd
+            About HAVELY STORE LTD
           </h2>
           <p className="mt-4 leading-relaxed text-muted">
             SellerFlow is a product of{" "}
             <strong className="text-foreground">{siteConfig.company.name}</strong>,
-            incorporated in England and Wales. CloudVerge develops and operates
-            SellerFlow as a subscription SaaS platform serving business customers
-            (f-commerce sellers) in Bangladesh and beyond.
+            incorporated in England and Wales. HAVELY STORE LTD develops and
+            operates SellerFlow as a subscription SaaS platform serving business
+            customers (f-commerce sellers) in Bangladesh and beyond.
           </p>
 
           <dl className="mt-8 space-y-4 rounded-xl border border-border bg-surface p-6">
@@ -85,6 +85,14 @@ export default function AboutPage() {
               </dt>
               <dd className="mt-1 text-sm text-muted">
                 {siteConfig.company.legalName}
+              </dd>
+            </div>
+            <div>
+              <dt className="text-sm font-semibold text-foreground">
+                Company type
+              </dt>
+              <dd className="mt-1 text-sm text-muted">
+                {siteConfig.company.companyType}
               </dd>
             </div>
             <div>
@@ -104,18 +112,18 @@ export default function AboutPage() {
             </div>
             <div>
               <dt className="text-sm font-semibold text-foreground">
-                Registered office
+                Companies House submission number
               </dt>
               <dd className="mt-1 text-sm text-muted">
-                {siteConfig.company.address}
+                {siteConfig.company.submissionNumber}
               </dd>
             </div>
             <div>
               <dt className="text-sm font-semibold text-foreground">
-                Incorporated
+                Registered office
               </dt>
               <dd className="mt-1 text-sm text-muted">
-                {siteConfig.company.incorporated}
+                {siteConfig.company.address}
               </dd>
             </div>
             <div>

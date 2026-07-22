@@ -58,7 +58,7 @@ const stats = [
   { value: "3 channels", label: "One inbox" },
   { value: "Steadfast+", label: "Courier integrations" },
   { value: "Bangla AI", label: "Draft replies" },
-  { value: "UK SaaS", label: "CloudVerge Ltd" },
+  { value: "UK SaaS", label: "HAVELY STORE LTD" },
 ];
 
 export default function HomePage() {

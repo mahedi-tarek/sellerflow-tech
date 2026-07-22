@@ -5,13 +5,15 @@ export const siteConfig = {
   email: "info@sellerflow.tech",
   privacyEmail: "privacy@sellerflow.tech",
   company: {
-    name: "CloudVerge Ltd",
-    legalName: "CLOUDVERGE LTD",
-    number: "16819639",
-    address: "61 Ilex Close, Colchester, England, CO2 9QD",
-    incorporated: "29 October 2025",
+    name: "HAVELY STORE LTD",
+    legalName: "HAVELY STORE LTD",
+    number: "16954855",
+    companyType: "Private Limited by Shares",
+    submissionNumber: "112-807103",
+    address: "E6 1EB, 31 Crescent Road",
+    incorporated: "Not provided",
     companiesHouseUrl:
-      "https://find-and-update.company-information.service.gov.uk/company/16819639",
+      "https://find-and-update.company-information.service.gov.uk/company/16954855",
   },
   tagline:
     "One dashboard for inbox, orders, courier, and COD — built for Bangladesh f-commerce sellers.",

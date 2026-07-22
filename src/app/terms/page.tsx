@@ -5,7 +5,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "SellerFlow Terms of Service — acceptable use, seller responsibilities, liability, and termination for CloudVerge Ltd's SaaS platform.",
+    "SellerFlow Terms of Service — acceptable use, seller responsibilities, liability, and termination for HAVELY STORE LTD's SaaS platform.",
 };
 
 const lastUpdated = "19 July 2026";
@@ -27,7 +27,7 @@ export default function TermsPage() {
           These Terms of Service (&quot;Terms&quot;) govern your access to and use
           of <strong>SellerFlow</strong> ({siteConfig.url}), a software-as-a-service
           platform operated by <strong>{siteConfig.company.legalName}</strong>{" "}
-          (&quot;CloudVerge,&quot; &quot;we,&quot; &quot;us,&quot; or
+          (&quot;HAVELY STORE LTD,&quot; &quot;we,&quot; &quot;us,&quot; or
           &quot;our&quot;), registered in England and Wales (company number{" "}
           {siteConfig.company.number}).
         </p>

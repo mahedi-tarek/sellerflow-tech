@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact SellerFlow and CloudVerge Ltd — book a demo, get support, or reach our team at info@sellerflow.tech.",
+    "Contact SellerFlow and HAVELY STORE LTD — book a demo, get support, or reach our team at info@sellerflow.tech.",
 };
 
 export default function ContactPage() {
@@ -66,7 +66,11 @@ export default function ContactPage() {
                 <dd className="mt-1 text-sm leading-relaxed text-muted">
                   {siteConfig.company.legalName}
                   <br />
+                  Company type: {siteConfig.company.companyType}
+                  <br />
                   Company number: {siteConfig.company.number}
+                  <br />
+                  Companies House submission number: {siteConfig.company.submissionNumber}
                   <br />
                   {siteConfig.company.address}
                 </dd>

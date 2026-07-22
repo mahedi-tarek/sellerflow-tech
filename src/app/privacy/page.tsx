@@ -5,7 +5,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "SellerFlow Privacy Policy — how CloudVerge Ltd collects, uses, retains, and deletes data for sellers and their customers.",
+    "SellerFlow Privacy Policy — how HAVELY STORE LTD collects, uses, retains, and deletes data for sellers and their customers.",
 };
 
 const lastUpdated = "19 July 2026";
@@ -27,15 +27,15 @@ export default function PrivacyPage() {
       <article className="prose-legal mx-auto max-w-3xl px-5 py-16 lg:px-8">
         <p>
           This Privacy Policy describes how{" "}
-          <strong>{siteConfig.company.legalName}</strong> (&quot;CloudVerge,&quot;
+          <strong>{siteConfig.company.legalName}</strong> (&quot;HAVELY STORE LTD,&quot;
           &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, stores,
           and protects personal data when you use <strong>SellerFlow</strong> (
           {siteConfig.url}), our multi-tenant SaaS platform for f-commerce sellers.
         </p>
         <p>
-          CloudVerge is the data controller for seller account data. For customer
+          HAVELY STORE LTD is the data controller for seller account data. For customer
           message and contact data accessed through Meta&apos;s APIs on a
-          seller&apos;s behalf, the seller is the data controller and CloudVerge
+          seller&apos;s behalf, the seller is the data controller and HAVELY STORE LTD
           acts as a data processor, processing data only as instructed by the
           seller through the SellerFlow platform.
         </p>
